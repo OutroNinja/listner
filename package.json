@@ -1,0 +1,46 @@
+{
+  "name": "listner",
+  "version": "1.0.0",
+  "description": "A simple way to create and use lists.",
+  "license": "MIT",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "OutroNinja (https://github.com/outroninja)",
+  "bugs": {
+    "url": "https://github.com/OutroNinja/listner/issues"
+  },
+  "homepage": "github.com/OutroNinja/listner/tree/main#readme",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsx playground/index.ts"
+  },
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.2"
+  },
+  "keywords": [
+    "list",
+    "list management",
+    "typescript",
+    "data structure",
+    "collection",
+    "utility",
+    "listner"
+  ]
+}

@@ -1,0 +1,11 @@
+/src
+/node_modules
+/playground
+
+.env
+.DS_Store
+
+tsconfig.json
+tsup.config.ts
+package-lock.json
+*.development.json
