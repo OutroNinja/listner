@@ -1,6 +1,6 @@
 {
   "name": "listner",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple way to create and use lists.",
   "license": "MIT",
   "type": "module",
@@ -16,7 +16,7 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
+      "import": "./dist/index.js",
       "require": "./dist/index.js"
     }
   },
