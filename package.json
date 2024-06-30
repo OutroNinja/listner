@@ -11,7 +11,8 @@
   "bugs": {
     "url": "https://github.com/OutroNinja/listner/issues"
   },
-  "homepage": "github.com/OutroNinja/listner/tree/main#readme",
+  "homepage": "https://github.com/OutroNinja/listner/tree/main#readme",
+  "repository": "https://github.com/OutroNinja/listner",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -30,9 +31,9 @@
     "dev": "tsx playground/index.ts"
   },
   "devDependencies": {
-    "tsup": "^8.1.0",
-    "tsx": "^4.16.0",
-    "typescript": "^5.5.2"
+    "tsup": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
   },
   "keywords": [
     "list",
