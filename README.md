@@ -52,10 +52,10 @@ console.log(list.getAll());
 ```
 
 ## Documentation
-For more detailed documentation, visit [Listner Documentation](https://listner.github.io).
+For more detailed documentation, visit [Listner Documentation](https://listner.vercel.app).
 
 ## Contributing
-Contributions are always welcome! Please read the [contribution guideliens](https://github.com/outroninja/listner/CONTRIBUTING)
+Contributions are always welcome! Please read the [contribution guidelines](https://github.com/outroninja/listner/CONTRIBUTING)
 
 ## License
 MIT License. See the [LICENSE](https://github.com/outroninja/listner/blob/master/LICENSE) file.
